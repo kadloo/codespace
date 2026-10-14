@@ -18,7 +18,7 @@
 
 Restart `jupyter`
 
-`jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --IdentityProvider.token='' --ServerApp.password='' --config=jupyter_config.py`
+`claude mcp add jupyter-mcp -- uvx --from jupyter-server-mcp jupyter-server-mcp-proxy`
 
 Create `CLAUDE.md` 
   - "Use jupyter MCP tools when working with notebooks"
